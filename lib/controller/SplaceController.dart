@@ -12,7 +12,9 @@ class SplaceController extends GetxController {
   void handleSplace() async {
     Future.delayed(Duration(seconds: 5), () {
       print("Go to Home Page");
-      Get.to(HomePage());
+      Get.to(
+        HomePage(),
+      );
     });
   }
 }
