@@ -25,6 +25,40 @@ final darkTheme = ThemeData(
       fontSize: 12,
     ),
   ),
+  // colorScheme: ColorScheme(
+  //   brightness: Brightness.dark,
+  //   background: backgroundColor,
+  //   onBackground: onPrimaryColor,
+  //   error: Colors.red,
+  //   onError: onPrimaryColor,
+  //   onPrimary: onPrimaryColor,
+  //   onSecondary: onPrimaryColor,
+  //   onSecondaryContainer: onSecondryColor,
+  //   onSurface: Colors.white,
+  //   surface: Colors.black12,
+  //   primary: Colors.deepPurple,
+  //   secondary: Colors.grey,
+  // ),
+
+  inputDecorationTheme: InputDecorationTheme(
+    labelStyle: TextStyle(
+      fontFamily: "Poppins",
+      color: onSecondryColor,
+      fontSize: 15,
+    ),
+    border: OutlineInputBorder(
+      borderSide: BorderSide(
+        color: onSecondryColor,
+        width: 1,
+      ),
+    ),
+    enabledBorder: OutlineInputBorder(
+      borderSide: BorderSide(
+        color: onSecondryColor,
+        width: 1,
+      ),
+    ),
+  ),
 );
 
 final lightTheme = ThemeData(brightness: Brightness.light);

@@ -1,5 +1,6 @@
 import 'package:cred_clone/config/theme.dart';
 import 'package:cred_clone/pages/HomePage.dart';
+import 'package:cred_clone/pages/LoginScreen/LoginScreen.dart';
 import 'package:cred_clone/pages/SplaceScreen/SplaceScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: darkTheme,
       // home: HomePage(),
-      home: SplaceScreen(),
+      // home: SplaceScreen(),
+      home: LoginScreen(),
     );
   }
 }
